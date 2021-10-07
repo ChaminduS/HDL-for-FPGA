@@ -1,0 +1,88 @@
+# Compile of AAC2M1H1.vhd failed with 3 errors.
+# Compile of AAC2M1H1.vhd was successful.
+vsim -gui work.aac2m1h1_tb
+# vsim -gui work.aac2m1h1_tb 
+# Start time: 17:44:26 on Oct 07,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1h1_tb(behavioral)
+# Loading work.fulladd(behavioral)
+add wave -position end  sim:/aac2m1h1_tb/a_tb
+add wave -position end  sim:/aac2m1h1_tb/b_tb
+add wave -position end  sim:/aac2m1h1_tb/cin_tb
+add wave -position end  sim:/aac2m1h1_tb/sum_tb
+add wave -position end  sim:/aac2m1h1_tb/cout_tb
+add wave -position end  sim:/aac2m1h1_tb/carry_sum
+add wave -position end  sim:/aac2m1h1_tb/ValidCheck
+add wave -position end  sim:/aac2m1h1_tb/ROM
+add wave -position end  sim:/aac2m1h1_tb/delay
+add wave -position end  sim:/aac2m1h1_tb/Points
+run
+# ** Note: This simulation is complete
+#    Time: 100 ns  Iteration: 0  Instance: /aac2m1h1_tb
+run
+run
+run
+quit -sim
+# End time: 17:44:53 on Oct 07,2021, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 3
+vsim -gui work.aac2m1h1_tb
+# vsim -gui work.aac2m1h1_tb 
+# Start time: 17:44:59 on Oct 07,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1h1_tb(behavioral)
+# Loading work.fulladd(behavioral)
+run
+# ** Note: This simulation is complete
+#    Time: 100 ns  Iteration: 0  Instance: /aac2m1h1_tb
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 17:45:43 on Oct 07,2021, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 1
+vsim -gui work.aac2m1h1_tb(behavioral)
+# vsim -gui work.aac2m1h1_tb(behavioral) 
+# Start time: 17:45:55 on Oct 07,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1h1_tb(behavioral)
+# Loading work.fulladd(behavioral)
+run
+# ** Note: This simulation is complete
+#    Time: 100 ns  Iteration: 0  Instance: /aac2m1h1_tb
+# End time: 17:46:35 on Oct 07,2021, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 1
