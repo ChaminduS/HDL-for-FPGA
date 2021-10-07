@@ -1,0 +1,118 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+Eaac2m1p1_tb
+Z0 w1573285870
+Z1 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+Z5 dF:/Coursera/Coursera - HDL for FPGA/Week 01/AAC2M1P1
+Z6 8F:/Coursera/Coursera - HDL for FPGA/Week 01/AAC2M1P1/AAC2M1P1_tb.vhdp
+Z7 FF:/Coursera/Coursera - HDL for FPGA/Week 01/AAC2M1P1/AAC2M1P1_tb.vhdp
+l0
+L52 1
+VJYg2NG8BnOlP:Ta[BeaT?1
+!s100 o_c;zO@o9]4[Q2AMzCkSz0
+Z8 OV;C;2020.1;71
+32
+!s110 1633587765
+!i10b 1
+Z9 !s108 1633587765.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Coursera/Coursera - HDL for FPGA/Week 01/AAC2M1P1/AAC2M1P1_tb.vhdp|
+Z11 !s107 F:/Coursera/Coursera - HDL for FPGA/Week 01/AAC2M1P1/AAC2M1P1_tb.vhdp|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 11 aac2m1p1_tb 0 22 JYg2NG8BnOlP:Ta[BeaT?1
+!i122 3
+l135
+L61 186
+V0g=Cd;ld2@M15;_bI1[_j1
+!s100 l>ACoNR8M;ZebUZcn?]DG0
+R8
+!i119 1
+32
+!s110 1633587766
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecomparator2
+Z14 w1633589089
+R3
+R4
+!i122 11
+R5
+Z15 8F:/Coursera/Coursera - HDL for FPGA/Week 01/AAC2M1P1/AAC2M1P1.vhd
+Z16 FF:/Coursera/Coursera - HDL for FPGA/Week 01/AAC2M1P1/AAC2M1P1.vhd
+l0
+L40 1
+Vaf4j3R6aj`Yfibo51dTF11
+!s100 5CNBgY]l]cL0BBLQNjD=M0
+R8
+32
+Z17 !s110 1633589092
+!i10b 1
+Z18 !s108 1633589092.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Coursera/Coursera - HDL for FPGA/Week 01/AAC2M1P1/AAC2M1P1.vhd|
+Z20 !s107 F:/Coursera/Coursera - HDL for FPGA/Week 01/AAC2M1P1/AAC2M1P1.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R3
+R4
+Z21 DEx4 work 11 comparator2 0 22 af4j3R6aj`Yfibo51dTF11
+!i122 11
+l47
+Z22 L46 4
+Z23 VEf63B5[;kM@;V1QB^eUES3
+Z24 !s100 ]4Ai]<PPM=oO4a^n2f_nz1
+R8
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Astruct
+R3
+R4
+R21
+!i122 10
+l50
+L48 6
+V9`=4MhoVn37hhm`<TkL?D3
+!s100 _SGCQd^B14SBgz9IVYYb>1
+R8
+32
+!s110 1633588786
+!i10b 1
+!s108 1633588785.000000
+R19
+R20
+!i113 1
+R12
+R13
+w1633588779
