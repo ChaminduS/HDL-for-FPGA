@@ -44,3 +44,7 @@ entity Majority is port (
 end Majority;                   	
 
 architecture behavioral of Majority is
+    begin
+        Y <= ((A AND C) OR (A AND B) OR (B AND C));
+end behavioral;
+ 
