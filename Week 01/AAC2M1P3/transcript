@@ -1,0 +1,416 @@
+# Compile of AAC2M1P3.vhd was successful.
+vsim -gui work.aac2m1p3_tb(behavioral)
+# vsim -gui work.aac2m1p3_tb(behavioral) 
+# Start time: 12:50:59 on Oct 07,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p3_tb(behavioral)
+# Loading work.find_errors(not_good)
+run
+add wave -position end  sim:/aac2m1p3_tb/a_tb
+add wave -position end  sim:/aac2m1p3_tb/c_tb
+add wave -position end  sim:/aac2m1p3_tb/b_tb
+add wave -position end  sim:/aac2m1p3_tb/ValidCheck
+add wave -position end  sim:/aac2m1p3_tb/ROM
+add wave -position end  sim:/aac2m1p3_tb/delay
+add wave -position end  sim:/aac2m1p3_tb/Points
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 12:52:09 on Oct 07,2021, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 2
+vsim -gui work.find_errors
+# vsim -gui work.find_errors 
+# Start time: 12:52:26 on Oct 07,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.find_errors(not_good)
+add wave -position end  sim:/find_errors/a
+add wave -position end  sim:/find_errors/b
+add wave -position end  sim:/find_errors/c
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -continue
+run -continue
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 12:52:55 on Oct 07,2021, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 1
+vsim -gui work.aac2m1p3_tb
+# vsim -gui work.aac2m1p3_tb 
+# Start time: 12:53:05 on Oct 07,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p3_tb(behavioral)
+# Loading work.find_errors(not_good)
+add wave -position end  sim:/aac2m1p3_tb/a_tb
+add wave -position end  sim:/aac2m1p3_tb/c_tb
+add wave -position end  sim:/aac2m1p3_tb/b_tb
+add wave -position end  sim:/aac2m1p3_tb/ValidCheck
+add wave -position end  sim:/aac2m1p3_tb/ROM
+add wave -position end  sim:/aac2m1p3_tb/delay
+add wave -position end  sim:/aac2m1p3_tb/Points
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Error: Error
+#    Time: 160 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+run
+run
+run
+run
+# ** Error: Error
+#    Time: 640 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+# ** Error: Error
+#    Time: 800 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+run
+run
+run
+run
+# ** Error: Error
+#    Time: 1280 ns  Iteration: 0  Instance: /aac2m1p3_tb
+quit -sim
+# End time: 12:56:34 on Oct 07,2021, Elapsed time: 0:03:29
+# Errors: 4, Warnings: 1
+# Compile of AAC2M1P3.vhd was successful.
+vsim -gui work.aac2m1p3_tb(behavioral)
+# vsim -gui work.aac2m1p3_tb(behavioral) 
+# Start time: 12:57:08 on Oct 07,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p3_tb(behavioral)
+# Loading work.find_errors(not_good)
+run
+run
+# ** Error: Error
+#    Time: 160 ns  Iteration: 0  Instance: /aac2m1p3_tb
+add wave -position end  sim:/aac2m1p3_tb/a_tb
+add wave -position end  sim:/aac2m1p3_tb/c_tb
+add wave -position end  sim:/aac2m1p3_tb/b_tb
+add wave -position end  sim:/aac2m1p3_tb/ValidCheck
+add wave -position end  sim:/aac2m1p3_tb/ROM
+add wave -position end  sim:/aac2m1p3_tb/delay
+add wave -position end  sim:/aac2m1p3_tb/Points
+run
+run
+run
+run
+run
+# ** Error: Error
+#    Time: 640 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+# ** Error: Error
+#    Time: 800 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+run
+run
+run
+run
+# ** Error: Error
+#    Time: 1280 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+run
+# ** Error: Error
+#    Time: 1440 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+run
+run
+run
+run
+# ** Error: Error
+#    Time: 1920 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+# ** Error: Error
+#    Time: 2080 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+run
+run
+run
+run
+# ** Error: Error
+#    Time: 2560 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+run
+# ** Error: Error
+#    Time: 2720 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+run
+run
+quit -sim
+# End time: 12:59:33 on Oct 07,2021, Elapsed time: 0:02:25
+# Errors: 9, Warnings: 2
+# Compile of AAC2M1P3.vhd was successful.
+vsim -gui work.aac2m1p3_tb
+# vsim -gui work.aac2m1p3_tb 
+# Start time: 12:59:56 on Oct 07,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p3_tb(behavioral)
+# Loading work.find_errors(not_good)
+run
+run
+# ** Error: Error
+#    Time: 160 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+run
+run
+run
+run
+# ** Error: Error
+#    Time: 640 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+# ** Error: Error
+#    Time: 800 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+run
+run
+run
+run
+# ** Error: Error
+#    Time: 1280 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+run
+# ** Error: Error
+#    Time: 1440 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+run
+run
+run
+run
+# ** Error: Error
+#    Time: 1920 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+# ** Error: Error
+#    Time: 2080 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+quit -sim
+# End time: 13:01:02 on Oct 07,2021, Elapsed time: 0:01:06
+# Errors: 7, Warnings: 2
+# Compile of AAC2M1P3.vhd was successful.
+# Compile of AAC2M1P3_tb.vhdp was successful.
+vsim -gui work.aac2m1p3_tb
+# vsim -gui work.aac2m1p3_tb 
+# Start time: 13:02:00 on Oct 07,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p3_tb(behavioral)
+# Loading work.find_errors(not_good)
+add wave -position end  sim:/aac2m1p3_tb/a_tb
+add wave -position end  sim:/aac2m1p3_tb/c_tb
+add wave -position end  sim:/aac2m1p3_tb/b_tb
+add wave -position end  sim:/aac2m1p3_tb/ValidCheck
+add wave -position end  sim:/aac2m1p3_tb/ROM
+add wave -position end  sim:/aac2m1p3_tb/delay
+add wave -position end  sim:/aac2m1p3_tb/Points
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 13:02:29 on Oct 07,2021, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 3
+vsim -gui work.aac2m1p3_tb(behavioral)
+# vsim -gui work.aac2m1p3_tb(behavioral) 
+# Start time: 13:02:36 on Oct 07,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p3_tb(behavioral)
+# Loading work.find_errors(not_good)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
