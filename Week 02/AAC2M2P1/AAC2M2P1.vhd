@@ -13,3 +13,15 @@ entity AAC2M2P1 is port (
     TC:  out std_logic  -- Terminal Count
 );            		
 end AAC2M2P1;
+
+architecture behavioral of AAC2M2P1 is
+    signal q : std_logic_vector(3 downto 0);
+    begin 
+    process (CP)
+    variable cond : std_logic_vector(3 downto 0);
+    begin
+        cond := SR & PE & CET & CEP;
+        if (rising_edge(CP)) then
+            case cond is
+                when "0001"|"0010"|"0011"|"0100"|"0101"|"0110"|"0111" => q <= "0000";
+                when
