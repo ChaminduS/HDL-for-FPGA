@@ -1,5 +1,6 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
 
 ENTITY RAM128_32 IS
 	PORT
@@ -24,7 +25,7 @@ architecture SPR_Arch of RAM128_32 is
 				end if;
 			end if;
 		
-			q <= ram(to_integer(unsigned(address));
+			q <= ram(to_integer(unsigned(address)));
 		end process;
 	end architecture;
 
