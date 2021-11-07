@@ -1,6 +1,7 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
+use IEEE.std_logic_unsigned.all;
 
 entity AAC2M2P1 is port (                 	
    CP: 	in std_logic; 	-- clock
@@ -14,14 +15,19 @@ entity AAC2M2P1 is port (
 );            		
 end AAC2M2P1;
 
-architecture behavioral of AAC2M2P1 is
-    signal q : std_logic_vector(3 downto 0);
-    begin 
-    process (CP)
-    variable cond : std_logic_vector(3 downto 0);
-    begin
-        cond := SR & PE & CET & CEP;
-        if (rising_edge(CP)) then
-            case cond is
-                when "0001"|"0010"|"0011"|"0100"|"0101"|"0110"|"0111" => q <= "0000";
-                when
+architecture bin_count of AAC2M2P1 is
+signal temp: std_logic_vector(3 downto 0);
+begin
+binary_counter : process(CP)
+begin
+if(rising_edge(CP) and SR='0') then temp<="0000";
+elsif(rising_edge(CP)) then
+	if(PE='0') then temp<=P;
+	elsif(PE='1' AND CET='1' AND CEP='1') then temp<=temp+ 1;
+	end if;
+end if;
+
+end  process binary_counter ;
+Q<=temp;
+TC <= temp(0) and temp(1) and temp(2) and temp(3) and CET;
+end architecture bin_count;
