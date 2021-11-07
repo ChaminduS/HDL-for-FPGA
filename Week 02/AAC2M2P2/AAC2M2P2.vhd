@@ -11,3 +11,23 @@ ENTITY RAM128_32 IS
 		q		: OUT STD_LOGIC_VECTOR (31 DOWNTO 0)
 	);
 END RAM128_32;
+
+architecture SPR_Arch of RAM128_32 is
+	type ram_type is array (0 to 2**7) of std_logic_vector(31 downto 0);
+	signal ram : ram_type;
+
+	begin ram_proc : process (clock)
+		begin
+			if (rising_edge(clock)) then
+				if (wren='1') then
+					ram(to_integer(unsigned(address))) <= data;
+				end if;
+			end if;
+		
+			q <= ram(to_integer(unsigned(address));
+		end process;
+	end architecture;
+
+
+
+
