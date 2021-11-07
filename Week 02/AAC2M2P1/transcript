@@ -1,0 +1,54 @@
+vsim -gui work.aac2m2p1(behavioral)
+# vsim -gui work.aac2m2p1(behavioral) 
+# Start time: 17:50:27 on Nov 07,2021
+# Loading std.standard
+# ** Error: (vsim-13) Recompile work.aac2m2p1(behavioral) because work.aac2m2p1 has changed.
+# Error loading design
+# End time: 17:50:28 on Nov 07,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of AAC2M2P1.vhd was successful.
+# Compile of AAC2M2P1_tb.vhdp was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.aac2m2p1
+# vsim -gui work.aac2m2p1 
+# Start time: 17:50:51 on Nov 07,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.aac2m2p1(bin_count)
+add wave -position end  sim:/aac2m2p1/CP
+add wave -position end  sim:/aac2m2p1/SR
+add wave -position end  sim:/aac2m2p1/P
+add wave -position end  sim:/aac2m2p1/PE
+add wave -position end  sim:/aac2m2p1/CEP
+add wave -position end  sim:/aac2m2p1/CET
+add wave -position end  sim:/aac2m2p1/Q
+add wave -position end  sim:/aac2m2p1/TC
+add wave -position end  sim:/aac2m2p1/temp
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
