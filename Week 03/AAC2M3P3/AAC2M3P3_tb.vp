@@ -1,57 +1,3 @@
-/*******************************************************************************
--*                                                                            **
-**                          Find Errors Test Bench                            **
-**                                                                            **
-********************************************************************************
-**
-** Replace [items in brackets] with your content
-** @file AAC2M3P3_tb.v
-** @version: 1.0 
-** Date of current revision:  @date 2019*06*22  
-** Target FPGA: [Intel Altera MAX10] 
-** Tools used: Sigasi for editing and synthesis checking 
-**             Modeltech ModelSIM 10.4a Student Edition for simulation 
-**             
-**  Functional Description:  This file contains the Verilog which describes the 
-**              test bench for an FPGA implementation of strange 4-bit Mux
-**              The inputs are a a, a 4-bit vector, a fixed 4-bit vector, 
-**              and c, a 6-bit selector, with b, a 4-bit vector as the output.
-**  Hierarchy:  This test bench uses the AAC2M3P3.v component found
-**              in the Work Library.
-**             The YourFPGA component is instantiated. This is the component 
-**             under test.  Other devices on the board are modeled as processes 
-**             which run concurrently.    The other 
-**             devices are listed in the following function sections:
-**                [ I.   Clock * generates XX MHz clock 
-**                 II.  Reset control
-**                 III. Interrupt Control
-**                 IV.  Address/Data Bus
-**                      etc.         ]
-**
-**              The FPGA is one module.  The test bench module is one
-**              functional section, which compares all the possible
-**              input bit vector combinations and checks to see if the
-**              result is correct after a 10 ns delay.   
-
-**	 TESTS 
-**   I. Mux test
-**    compare all the possible input bit vector combinations and checks to see 
-**    if the result is correct after a 10 ns delay.
-**  
-**  Designed by:  @author Tim Scherr 
-**                University of Colorado
-**                timothy.scherr@colorado.edu 
-** 
-**      Copyright (c) 2018, 2019 by Tim Scherr
-**
-** Redistribution, modification or use of this software in source or binary
-** forms is permitted as long as the files maintain this copyright. Users are
-** permitted to modify this and use it to learn about the field of HDl code.
-** Tim Scherr and the University of Colorado are not liable for any misuse
-** of this material.
-******************************************************************************
-** 
-*/
 `timescale 1 ns / 1 ps   // set timescale to nanoseconds, ps precision
 /**********************************************************************
 ** Libraries
@@ -165,7 +111,7 @@ VIXa37a5eoDjxQXcRLLiOCkWSagw2LK95Dv1vnOwsMAWOs4KXAyTRCrVwhtiYd9B
 O9/AZNlsRG89042j6hOQPlq8h7NByjuAdD3Kjn5yDICyDQhyWmrMQfiVoDGWbHk5
 VMUin6NyTOcfioWxMrotS47WyruPtG2unHi5nklMvXqAsrYDHREkEN1sF4ma9bpf
 eNAEoyG515tTRNb1HQEcM25yGawbk4jfdfeZl8Fvovdlk0w1nju3/tYbEP375FZy
-2Dww9CaO5JPB89+5RnXO/1dmK+rJIUCGdPr20a3WdrTgHQ7091BtbK7P8+na3bQl
+2Dww9CaO5JPB89+5RnXO/1dmK+rPTbFPZzFiLwA17kBfsyJF3Fm1kuFsVtSc+na3bQl
 zAnVk+GGdCOvl4dgw+39FGsIh68Sp6tbOb4qJlDXCkKb9U2+kqiEiuAuAq8o679X
 P5eHTXx+C/Xa6bkUiKW9ir/VJ4GIdQasD7wLUziCr06hZGv8hcPZtAKadhT8sXIC
 hUuGN88a/4mMxafKHH9PLbAkvJgrG8Qv+BEuxD2SItSacI/dFWFPh/EmoxlV60dO
@@ -188,6 +134,3 @@ ohJxaMDs3mcRRiAzg+WQj/xqtK8pPC2z2VdvCRkCPL94fVgJ+AZ9qQV+Hdqc9g2i
 `pragma protect end_protected
 
 endmodule // of AAC2M3P4_tb;     
-
-
-    

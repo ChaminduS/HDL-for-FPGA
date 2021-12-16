@@ -1,20 +1,13 @@
 
   	                                            		
 module Comparator2(
-   input[1:0] a, b, output reg Equals);      		
+   input[1:0] A, B,
+   output reg Equals
+);      		
                    	          	
 // student code here
-wire n0, n1, Out;
-xnor xnor0 (n0,a[0],b[0]);
-xnor xnor1 (n1,a[1],b[1]);
-
-and and0 (Out,n0,n1);
-
-assign Equals = Out;
-
+always @(A,B) begin
+    if ((A[1]~^B[1])&&(A[0]~^B[0])) Equals <= 1'b1;
+    else Equals <= 1'b0;
+end
 endmodule // Comparator2 
-
-
-
-
-    
