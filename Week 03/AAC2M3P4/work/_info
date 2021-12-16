@@ -1,0 +1,60 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P3
+vAAC2M3P4_tb
+!s110 1639676911
+!i10b 1
+!s100 S@bD9]cTjH>c3TIcFZ=KR3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ia8`dGlm:nDTeYi_d`dPAX0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!i119 1
+Z2 dF:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P4
+w1573387878
+8F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P4/AAC2M3P4_tb.vp
+FF:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P4/AAC2M3P4_tb.vp
+!i122 1
+L0 61 54
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1639676911.000000
+!s107 F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P4/AAC2M3P4_tb.vp|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P4/AAC2M3P4_tb.vp|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@a@a@c2@m3@p4_tb
+vMajority
+!s110 1639676907
+!i10b 1
+!s100 AEgUaAbHTJ1lVSMCe@VDk0
+R0
+IgmTf7`DQ4dP7oQBL<e;:^0
+R1
+R2
+w1639676817
+8F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P4/AAC2M3P4.v
+FF:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P4/AAC2M3P4.v
+!i122 0
+L0 37 10
+R3
+r1
+!s85 0
+31
+!s108 1639676907.000000
+!s107 F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P4/AAC2M3P4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P4/AAC2M3P4.v|
+!i113 1
+R4
+R5
+n@majority

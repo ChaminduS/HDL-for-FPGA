@@ -41,7 +41,7 @@ module Majority (A, B, C, Y);
    reg Y;           		
                    	          	
 // student code here
-
+assign Y = A&B | A&C | B&C;
 
 endmodule // Majority  
 

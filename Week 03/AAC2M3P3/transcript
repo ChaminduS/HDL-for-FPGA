@@ -1,104 +1,32 @@
-# Compile of AAC2M3P1.v was successful.
-vsim -gui work.AAC2M3P1_tb
-# vsim -gui work.AAC2M3P1_tb 
-# Start time: 22:31:00 on Dec 16,2021
-# Loading work.AAC2M3P1_tb
-# Loading work.Comparator2
-add wave -position end  sim:/AAC2M3P1_tb/delay
-add wave -position end  sim:/AAC2M3P1_tb/a_tb
-add wave -position end  sim:/AAC2M3P1_tb/b_tb
-add wave -position end  sim:/AAC2M3P1_tb/y_tb
-add wave -position end  sim:/AAC2M3P1_tb/i
-add wave -position end  sim:/AAC2M3P1_tb/j
-add wave -position end  sim:/AAC2M3P1_tb/ErrorCount
-add wave -position end  sim:/AAC2M3P1_tb/score
-add wave -position end  sim:/AAC2M3P1_tb/FirstError
-add wave -position end  sim:/AAC2M3P1_tb/ValidCheck
-add wave -position end  sim:/AAC2M3P1_tb/testresults
-add wave -position end  sim:/AAC2M3P1_tb/vector
-add wave -position end  sim:/AAC2M3P1_tb/address
-add wave -position end  sim:/AAC2M3P1_tb/data
-add wave -position end  sim:/AAC2M3P1_tb/rom
-run
+# Compile of AAC2M3P4.v was successful.
+# Compile of AAC2M3P4_tb.vp was successful.
+vsim -gui work.AAC2M3P4_tb
+# vsim -gui work.AAC2M3P4_tb 
+# Start time: 23:18:38 on Dec 16,2021
+# Loading work.AAC2M3P4_tb
+# Loading work.Majority
+add wave -position end  sim:/AAC2M3P4_tb/delay
+add wave -position end  sim:/AAC2M3P4_tb/a_tb
+add wave -position end  sim:/AAC2M3P4_tb/b_tb
+add wave -position end  sim:/AAC2M3P4_tb/c_tb
+add wave -position end  sim:/AAC2M3P4_tb/y_tb
+add wave -position end  sim:/AAC2M3P4_tb/i
+add wave -position end  sim:/AAC2M3P4_tb/j
+add wave -position end  sim:/AAC2M3P4_tb/k
+add wave -position end  sim:/AAC2M3P4_tb/ErrorCount
+add wave -position end  sim:/AAC2M3P4_tb/score
+add wave -position end  sim:/AAC2M3P4_tb/FirstError
+add wave -position end  sim:/AAC2M3P4_tb/ValidCheck
+add wave -position end  sim:/AAC2M3P4_tb/testresults
+add wave -position end  sim:/AAC2M3P4_tb/vector
+add wave -position end  sim:/AAC2M3P4_tb/address
+add wave -position end  sim:/AAC2M3P4_tb/data
+add wave -position end  sim:/AAC2M3P4_tb/rom
 run
 # This simulation is complete
-# ** Note: $stop    : F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P1/AAC2M3P1_tb.vp(113)
-#    Time: 170 ns  Iteration: 0  Instance: /AAC2M3P1_tb
-# Break in Module AAC2M3P1_tb in file F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P1/AAC2M3P1_tb.vp
+# ** Note: $stop    : F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P4/AAC2M3P4_tb.vp(115)
+#    Time: 90 ns  Iteration: 0  Instance: /AAC2M3P4_tb
+# Break in Module AAC2M3P4_tb in file F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P4/AAC2M3P4_tb.vp
 quit -sim
-# End time: 22:32:20 on Dec 16,2021, Elapsed time: 0:01:20
-# Errors: 0, Warnings: 2
-project open {F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P3/AAC2M3P3}
-# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
-# Loading project AAC2M3P3
-# Compile of AAC2M3P3.v was successful.
-vsim -gui work.AAC2M3P1_tb
-# vsim -gui work.AAC2M3P1_tb 
-# Start time: 22:33:47 on Dec 16,2021
-# Loading work.AAC2M3P1_tb
-# Loading work.find_errors
-add wave -position end  sim:/AAC2M3P1_tb/delay
-add wave -position end  sim:/AAC2M3P1_tb/a_tb
-add wave -position end  sim:/AAC2M3P1_tb/c_tb
-add wave -position end  sim:/AAC2M3P1_tb/b_tb
-add wave -position end  sim:/AAC2M3P1_tb/i
-add wave -position end  sim:/AAC2M3P1_tb/j
-add wave -position end  sim:/AAC2M3P1_tb/ErrorCount
-add wave -position end  sim:/AAC2M3P1_tb/score
-add wave -position end  sim:/AAC2M3P1_tb/FirstError
-add wave -position end  sim:/AAC2M3P1_tb/ValidCheck
-add wave -position end  sim:/AAC2M3P1_tb/testresults
-add wave -position end  sim:/AAC2M3P1_tb/vector
-add wave -position end  sim:/AAC2M3P1_tb/address
-add wave -position end  sim:/AAC2M3P1_tb/data
-add wave -position end  sim:/AAC2M3P1_tb/rom
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-quit -sim
-# End time: 22:35:00 on Dec 16,2021, Elapsed time: 0:01:13
-# Errors: 0, Warnings: 2
-# Compile of AAC2M3P3.v was successful.
-vsim -gui work.AAC2M3P1_tb
-# vsim -gui work.AAC2M3P1_tb 
-# Start time: 22:35:13 on Dec 16,2021
-# Loading work.AAC2M3P1_tb
-# Loading work.find_errors
-add wave -position end  sim:/AAC2M3P1_tb/delay
-add wave -position end  sim:/AAC2M3P1_tb/a_tb
-add wave -position end  sim:/AAC2M3P1_tb/c_tb
-add wave -position end  sim:/AAC2M3P1_tb/b_tb
-add wave -position end  sim:/AAC2M3P1_tb/i
-add wave -position end  sim:/AAC2M3P1_tb/j
-add wave -position end  sim:/AAC2M3P1_tb/ErrorCount
-add wave -position end  sim:/AAC2M3P1_tb/score
-add wave -position end  sim:/AAC2M3P1_tb/FirstError
-add wave -position end  sim:/AAC2M3P1_tb/ValidCheck
-add wave -position end  sim:/AAC2M3P1_tb/testresults
-add wave -position end  sim:/AAC2M3P1_tb/vector
-add wave -position end  sim:/AAC2M3P1_tb/address
-add wave -position end  sim:/AAC2M3P1_tb/data
-add wave -position end  sim:/AAC2M3P1_tb/rom
-run
-run
-quit -sim
-# End time: 22:35:27 on Dec 16,2021, Elapsed time: 0:00:14
-# Errors: 0, Warnings: 2
-# Compile of AAC2M3P3_tb.vp failed with 185 errors.
-# Compile of AAC2M3P3_tb.vp failed with 185 errors.
+# End time: 23:21:07 on Dec 16,2021, Elapsed time: 0:02:29
+# Errors: 0, Warnings: 10
