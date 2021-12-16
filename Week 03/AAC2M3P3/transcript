@@ -30,3 +30,271 @@ run
 quit -sim
 # End time: 23:21:07 on Dec 16,2021, Elapsed time: 0:02:29
 # Errors: 0, Warnings: 10
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project AAC2M3H1
+# Compile of AAC2M3H1.v failed with 4 errors.
+# Compile of AAC2M3H1_tb.vp was successful.
+# Compile of vector.out failed with 1 errors.
+# 3 compiles, 2 failed with 5 errors.
+# Compile of AAC2M3H1.v failed with 1 errors.
+# Compile of AAC2M3H1.v was successful.
+vsim -gui work.AAC2M3H1_tb
+# vsim -gui work.AAC2M3H1_tb 
+# Start time: 23:43:27 on Dec 16,2021
+# Loading work.AAC2M3H1_tb
+# Loading work.FullAdd4
+# Loading work.FullAdd1
+add wave -position end  sim:/AAC2M3H1_tb/delay
+add wave -position end  sim:/AAC2M3H1_tb/a_tb
+add wave -position end  sim:/AAC2M3H1_tb/b_tb
+add wave -position end  sim:/AAC2M3H1_tb/c_tb
+add wave -position end  sim:/AAC2M3H1_tb/y_tb
+add wave -position end  sim:/AAC2M3H1_tb/Cout_tb
+add wave -position end  sim:/AAC2M3H1_tb/i
+add wave -position end  sim:/AAC2M3H1_tb/j
+add wave -position end  sim:/AAC2M3H1_tb/k
+add wave -position end  sim:/AAC2M3H1_tb/ErrorCount
+add wave -position end  sim:/AAC2M3H1_tb/score
+add wave -position end  sim:/AAC2M3H1_tb/FirstError
+add wave -position end  sim:/AAC2M3H1_tb/ValidCheck
+add wave -position end  sim:/AAC2M3H1_tb/testresults
+add wave -position end  sim:/AAC2M3H1_tb/vector
+add wave -position end  sim:/AAC2M3H1_tb/address
+add wave -position end  sim:/AAC2M3H1_tb/data
+add wave -position end  sim:/AAC2M3H1_tb/rom
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 23:43:55 on Dec 16,2021, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 7
+vsim -gui work.FullAdd4
+# vsim -gui work.FullAdd4 
+# Start time: 23:44:03 on Dec 16,2021
+# Loading work.FullAdd4
+# Loading work.FullAdd1
+add wave -position end  sim:/FullAdd4/A
+add wave -position end  sim:/FullAdd4/B
+add wave -position end  sim:/FullAdd4/Sum
+add wave -position end  sim:/FullAdd4/Cout
+force -freeze sim:/FullAdd4/A 0001 0
+force -freeze sim:/FullAdd4/B 0010 0
+run
+run
+run
+# Break key hit
+quit -sim
+# End time: 23:46:33 on Dec 16,2021, Elapsed time: 0:02:30
+# Errors: 0, Warnings: 1
+vsim -gui work.FullAdd1
+# vsim -gui work.FullAdd1 
+# Start time: 23:46:38 on Dec 16,2021
+# Loading work.FullAdd1
+add wave -position end  sim:/FullAdd1/a
+add wave -position end  sim:/FullAdd1/b
+add wave -position end  sim:/FullAdd1/Cin
+add wave -position end  sim:/FullAdd1/Sum
+add wave -position end  sim:/FullAdd1/Cout
+force -freeze sim:/FullAdd1/a 1 0
+force -freeze sim:/FullAdd1/b 0 0
+run
+run
+force -freeze sim:/FullAdd1/Cin 0 0
+run
+run
+force -freeze sim:/FullAdd1/b 1 0
+run
+run
+force -freeze sim:/FullAdd1/Cin St1 0
+run
+run
+quit -sim
+# End time: 23:48:01 on Dec 16,2021, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 1
+vsim -gui work.FullAdd4
+# vsim -gui work.FullAdd4 
+# Start time: 23:49:35 on Dec 16,2021
+# Loading work.FullAdd4
+# Loading work.FullAdd1
+add wave -position end  sim:/FullAdd4/A
+add wave -position end  sim:/FullAdd4/B
+add wave -position end  sim:/FullAdd4/Cin
+add wave -position end  sim:/FullAdd4/Sum
+add wave -position end  sim:/FullAdd4/Cout
+force -freeze sim:/FullAdd4/A 0001 0
+force -freeze sim:/FullAdd4/B 0001 0
+force -freeze sim:/FullAdd4/Cin 1 0
+run
+run
+run
+run
+run
+force -freeze sim:/FullAdd4/A 0100 0
+run
+run
+run
+quit -sim
+# End time: 23:50:58 on Dec 16,2021, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 1
+vsim -gui work.AAC2M3H1_tb
+# vsim -gui work.AAC2M3H1_tb 
+# Start time: 23:51:04 on Dec 16,2021
+# Loading work.AAC2M3H1_tb
+# Loading work.FullAdd4
+# Loading work.FullAdd1
+run
+run
+run
+add wave -position end  sim:/AAC2M3H1_tb/delay
+add wave -position end  sim:/AAC2M3H1_tb/a_tb
+add wave -position end  sim:/AAC2M3H1_tb/b_tb
+add wave -position end  sim:/AAC2M3H1_tb/c_tb
+add wave -position end  sim:/AAC2M3H1_tb/y_tb
+add wave -position end  sim:/AAC2M3H1_tb/Cout_tb
+add wave -position end  sim:/AAC2M3H1_tb/i
+add wave -position end  sim:/AAC2M3H1_tb/j
+add wave -position end  sim:/AAC2M3H1_tb/k
+add wave -position end  sim:/AAC2M3H1_tb/ErrorCount
+add wave -position end  sim:/AAC2M3H1_tb/score
+add wave -position end  sim:/AAC2M3H1_tb/FirstError
+add wave -position end  sim:/AAC2M3H1_tb/ValidCheck
+add wave -position end  sim:/AAC2M3H1_tb/testresults
+add wave -position end  sim:/AAC2M3H1_tb/vector
+add wave -position end  sim:/AAC2M3H1_tb/address
+add wave -position end  sim:/AAC2M3H1_tb/data
+add wave -position end  sim:/AAC2M3H1_tb/rom
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 23:52:02 on Dec 16,2021, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 1
+# Compile of AAC2M3H1.v was successful.
+vsim -gui work.AAC2M3H1_tb
+# vsim -gui work.AAC2M3H1_tb 
+# Start time: 23:55:24 on Dec 16,2021
+# Loading work.AAC2M3H1_tb
+# Loading work.FullAdd4
+# Loading work.FullAdd1
+run
+add wave -position end  sim:/AAC2M3H1_tb/delay
+add wave -position end  sim:/AAC2M3H1_tb/a_tb
+add wave -position end  sim:/AAC2M3H1_tb/b_tb
+add wave -position end  sim:/AAC2M3H1_tb/c_tb
+add wave -position end  sim:/AAC2M3H1_tb/y_tb
+add wave -position end  sim:/AAC2M3H1_tb/Cout_tb
+add wave -position end  sim:/AAC2M3H1_tb/i
+add wave -position end  sim:/AAC2M3H1_tb/j
+add wave -position end  sim:/AAC2M3H1_tb/k
+add wave -position end  sim:/AAC2M3H1_tb/ErrorCount
+add wave -position end  sim:/AAC2M3H1_tb/score
+add wave -position end  sim:/AAC2M3H1_tb/FirstError
+add wave -position end  sim:/AAC2M3H1_tb/ValidCheck
+add wave -position end  sim:/AAC2M3H1_tb/testresults
+add wave -position end  sim:/AAC2M3H1_tb/vector
+add wave -position end  sim:/AAC2M3H1_tb/address
+add wave -position end  sim:/AAC2M3H1_tb/data
+add wave -position end  sim:/AAC2M3H1_tb/rom
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 23:55:55 on Dec 16,2021, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 2
+# Compile of AAC2M3H1.v failed with 3 errors.
+# Compile of AAC2M3H1.v was successful.
+vsim -gui work.AAC2M3H1_tb
+# vsim -gui work.AAC2M3H1_tb 
+# Start time: 23:57:38 on Dec 16,2021
+# Loading work.AAC2M3H1_tb
+# Loading work.FullAdd4
+# Loading work.FullAdd1
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 00:02:30 on Dec 17,2021, Elapsed time: 0:04:52
+# Errors: 0, Warnings: 3
+# Compile of AAC2M3H1.v was successful.
+vsim -gui work.AAC2M3H1_tb
+# vsim -gui work.AAC2M3H1_tb 
+# Start time: 00:02:41 on Dec 17,2021
+# Loading work.AAC2M3H1_tb
+# Loading work.FullAdd4
+# Loading work.Add
+add wave -position end  sim:/AAC2M3H1_tb/delay
+add wave -position end  sim:/AAC2M3H1_tb/a_tb
+add wave -position end  sim:/AAC2M3H1_tb/b_tb
+add wave -position end  sim:/AAC2M3H1_tb/c_tb
+add wave -position end  sim:/AAC2M3H1_tb/y_tb
+add wave -position end  sim:/AAC2M3H1_tb/Cout_tb
+add wave -position end  sim:/AAC2M3H1_tb/i
+add wave -position end  sim:/AAC2M3H1_tb/j
+add wave -position end  sim:/AAC2M3H1_tb/k
+add wave -position end  sim:/AAC2M3H1_tb/ErrorCount
+add wave -position end  sim:/AAC2M3H1_tb/score
+add wave -position end  sim:/AAC2M3H1_tb/FirstError
+add wave -position end  sim:/AAC2M3H1_tb/ValidCheck
+add wave -position end  sim:/AAC2M3H1_tb/testresults
+add wave -position end  sim:/AAC2M3H1_tb/vector
+add wave -position end  sim:/AAC2M3H1_tb/address
+add wave -position end  sim:/AAC2M3H1_tb/data
+add wave -position end  sim:/AAC2M3H1_tb/rom
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

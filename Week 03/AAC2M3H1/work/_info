@@ -1,0 +1,108 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P4
+vAAC2M3H1_tb
+!s110 1639678353
+!i10b 1
+!s100 [hJnlKTW[QOXD@fM1=7g[2
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IhW1=I>nKo`Njg_HL^NZR@0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!i119 1
+Z2 dF:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3H1
+w1573398160
+8F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3H1/AAC2M3H1_tb.vp
+FF:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3H1/AAC2M3H1_tb.vp
+!i122 1
+L0 64 56
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1639678353.000000
+!s107 F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3H1/AAC2M3H1_tb.vp|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3H1/AAC2M3H1_tb.vp|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@a@a@c2@m3@h1_tb
+vAdd
+Z6 !s110 1639679554
+!i10b 1
+!s100 :CH6JBzoXD903T[Y`Zf?R2
+R0
+IXfhKT6[W^GdFRgB[IX16e1
+R1
+R2
+Z7 w1639679541
+Z8 8F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3H1/AAC2M3H1.v
+Z9 FF:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3H1/AAC2M3H1.v
+!i122 7
+L0 38 21
+R3
+r1
+!s85 0
+31
+Z10 !s108 1639679554.000000
+Z11 !s107 F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3H1/AAC2M3H1.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3H1/AAC2M3H1.v|
+!i113 1
+R4
+R5
+n@add
+vFullAdd1
+!s110 1639679252
+!i10b 1
+!s100 3^0lH^h19JHYN>iYd2@k@1
+R0
+I7TzT>im_lo240GBcNKI:]3
+R1
+R2
+w1639679246
+R8
+R9
+!i122 6
+L0 38 12
+R3
+r1
+!s85 0
+31
+!s108 1639679252.000000
+R11
+R12
+!i113 1
+R4
+R5
+n@full@add1
+vFullAdd4
+R6
+!i10b 1
+!s100 =gNP54CH?::o@ci9_n>3?2
+R0
+IVT0<L3ZQV<M`XDB[4MjlK3
+R1
+R2
+R7
+R8
+R9
+!i122 7
+L0 60 16
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R4
+R5
+n@full@add4
