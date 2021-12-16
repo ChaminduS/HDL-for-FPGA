@@ -1,0 +1,173 @@
+# Compile of AAC2M3P1.v was successful.
+# Compile of AAC2M3P1.v failed with 1 errors.
+# Compile of AAC2M3P1.v was successful.
+# Compile of AAC2M3P1.v was successful.
+# Compile of AAC2M3P1_tb.vp was successful.
+# Compile of vector.out failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+vsim -gui work.Comparator2
+# vsim -gui work.Comparator2 
+# Start time: 21:38:19 on Dec 16,2021
+# Loading work.Comparator2
+add wave -position end  sim:/Comparator2/a
+add wave -position end  sim:/Comparator2/b
+add wave -position end  sim:/Comparator2/Equals
+add wave -position end  sim:/Comparator2/n0
+add wave -position end  sim:/Comparator2/n1
+add wave -position end  sim:/Comparator2/Out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:39:14 on Dec 16,2021, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 5
+# Compile of vector.out failed with 1 errors.
+vsim -gui work.Comparator2
+# vsim -gui work.Comparator2 
+# Start time: 21:39:53 on Dec 16,2021
+# Loading work.Comparator2
+add wave -position end  sim:/Comparator2/a
+add wave -position end  sim:/Comparator2/b
+add wave -position end  sim:/Comparator2/Equals
+add wave -position end  sim:/Comparator2/n0
+add wave -position end  sim:/Comparator2/n1
+add wave -position end  sim:/Comparator2/Out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:40:08 on Dec 16,2021, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 2
+vsim -gui work.AAC2M3P1_tb
+# vsim -gui work.AAC2M3P1_tb 
+# Start time: 21:40:17 on Dec 16,2021
+# Loading work.AAC2M3P1_tb
+# Loading work.Comparator2
+# ** Error: (vsim-3063) Port 'A' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /AAC2M3P1_tb/DUT File: F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P1/AAC2M3P1_tb.vp Line: 91
+# ** Error: (vsim-3063) Port 'B' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /AAC2M3P1_tb/DUT File: F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P1/AAC2M3P1_tb.vp Line: 91
+# Error loading design
+# End time: 21:40:17 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vsim -gui work.AAC2M3P1_tb
+# vsim -gui work.AAC2M3P1_tb 
+# Start time: 21:40:27 on Dec 16,2021
+# Loading work.AAC2M3P1_tb
+# Loading work.Comparator2
+# ** Error: (vsim-3063) Port 'A' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /AAC2M3P1_tb/DUT File: F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P1/AAC2M3P1_tb.vp Line: 91
+# ** Error: (vsim-3063) Port 'B' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /AAC2M3P1_tb/DUT File: F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P1/AAC2M3P1_tb.vp Line: 91
+# Error loading design
+# End time: 21:40:28 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 1
+# Compile of AAC2M3P1.v was successful.
+vsim -gui work.AAC2M3P1_tb
+# vsim -gui work.AAC2M3P1_tb 
+# Start time: 21:42:53 on Dec 16,2021
+# Loading work.AAC2M3P1_tb
+# Loading work.Comparator2
+# ** Error: (vsim-3063) Port 'A' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /AAC2M3P1_tb/DUT File: F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P1/AAC2M3P1_tb.vp Line: 91
+# ** Error: (vsim-3063) Port 'B' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /AAC2M3P1_tb/DUT File: F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P1/AAC2M3P1_tb.vp Line: 91
+# Error loading design
+# End time: 21:42:54 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 2
+vsim -gui work.AAC2M3P1_tb
+# vsim -gui work.AAC2M3P1_tb 
+# Start time: 21:44:13 on Dec 16,2021
+# Loading work.AAC2M3P1_tb
+# Loading work.Comparator2
+# ** Error: (vsim-3063) Port 'A' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /AAC2M3P1_tb/DUT File: F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P1/AAC2M3P1_tb.vp Line: 91
+# ** Error: (vsim-3063) Port 'B' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /AAC2M3P1_tb/DUT File: F:/Coursera/Coursera - HDL for FPGA/Week 03/AAC2M3P1/AAC2M3P1_tb.vp Line: 91
+# Error loading design
+# End time: 21:44:14 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 1
+vsim -gui work.Comparator2
+# vsim -gui work.Comparator2 
+# Start time: 21:44:20 on Dec 16,2021
+# Loading work.Comparator2
+add wave -position end  sim:/Comparator2/a
+add wave -position end  sim:/Comparator2/b
+add wave -position end  sim:/Comparator2/Equals
+add wave -position end  sim:/Comparator2/n0
+add wave -position end  sim:/Comparator2/n1
+add wave -position end  sim:/Comparator2/Out
+force -freeze sim:/Comparator2/a 01 0
+force -freeze sim:/Comparator2/b 2b'01 0
+# Invalid radix for based number: '.
+# ** UI-Msg: (vsim-4011) Invalid force value: 2b'01 0.
+# 
+force -freeze {sim:/Comparator2/a[1]} 0 0
+run
+run
+force -freeze sim:/Comparator2/b 2b'01 0
+# Invalid radix for based number: '.
+# ** UI-Msg: (vsim-4011) Invalid force value: 2b'01 0.
+# 
+run
+run
+run
+force -freeze sim:/Comparator2/b 01 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Comparator2/b 00 0
+run
+run
+run
+run
+quit -sim
+# End time: 21:49:11 on Dec 16,2021, Elapsed time: 0:04:51
+# Errors: 0, Warnings: 1
